@@ -27,14 +27,14 @@ There are 3 json files in **data** dir. You can edit them, adding new units, pro
 
 Or you may delete dishes.json file to skip creation of demo dishes.
 
-Or even delete all of them to keep database clean from start.
+Or even delete all of them to keep the database clean from the start.
 
-If you start executable jar then data dir should be in the same dir as jar or specified as argument.
+If you start an executable jar then data dir should be in the same dir as jar or specified as argument.
 
 ## Tested Java version: 17
 
 Java records used in the project as DTOs mostly for experiment. Therefore minimum required version is 14 when
-records were introduced. Version 17 is current LTS, so it is recommended. 
+records were introduced. Version 17 is the current LTS, so it is recommended.
 
 ## Swagger
 
@@ -42,10 +42,10 @@ records were introduced. Version 17 is current LTS, so it is recommended.
 
 ## Domain
 
-- **dish** was used instead of *recipe* because dish is more concise and spells more reliable. Dish have several summary fields like *name*, *number sf servings*, *instruction* and list of *ingredients*. Field *vegetarian* calculated by searching of all ingredients products if they all are vegetarian. If at least product is not vegetarian then the whole dish is not as well. 
-- **ingredient** holds *amount* of *units* of used *product*, e.g. *0.5* *liter* of *milk*. 
-- **product** list considered as a dictionary. Users can choose the product to add it as an ingredient. They also can add new product to the dictionary but cannot delete it. Name of product is case insensitive unique and transformed to lowercase on save. Each *product" has boolean field *vegetarian". Sometimes it's not clearly sure is the product vegetarian or not, it's up to user who adds the product to dictionary.  
-- **unit** list als considered as a dictionary. Users can choose the unit of measurement of the product when adding an ingredient. Name of unit is case insensitive unique and transformed to lowercase on save. List of units naturally finite. 
+- **dish** was used instead of word *recipe* because dish is more concise and spells more reliable. Dish have several summary fields like *name*, *number sf servings*, *instruction* and list of *ingredients*. Field *vegetarian* calculated by searching for all ingredients products if they all are vegetarian. If at least one product is not vegetarian then the whole dish is not as well.
+- **ingredient** holds *amount* of *units* of used *product*, e.g. *0.5* *liter* of *milk*.
+- **product** list considered as a dictionary. Users can choose the product to add it as an ingredient. They also can add new products to the dictionary but cannot delete them. Name of the product is case insensitively unique and transformed to lowercase on save. Each *product* has boolean field *vegetarian*. Sometimes it's not clearly sure if the product vegetarian or not, it's up to user who adds the product to dictionary.
+- **unit** list als considered as a dictionary. Users can choose the unit of measurement of the product when adding an ingredient. Name of the unit is case insensitively unique and transformed to lowercase on save. List of units naturally finite.
 
 ## Notes
 
@@ -53,11 +53,11 @@ records were introduced. Version 17 is current LTS, so it is recommended.
 
 ![API doc](data/swagger.png)
 
-- Creation of new dish consists of two steps. First of all you create dish with summary fields. Then you can add many ingredients to it or delete existing. Also you may update summary fields of dish. 
+- Creation of a new dish consists of two steps. First of all you create a dish with summary fields. Then you can add many ingredients to it or delete existing ones. Also you may update summary fields of dishes.
 
 ## Used framework and libs
 
-* [Spring boot](https://spring.io/projects/spring-boot) used as proved decision.
+* [Spring boot](https://spring.io/projects/spring-boot) used as a proven decision.
 * [H2](https://www.h2database.com) database with in-memory storage. It can be easily replaced by any RDBMS of choice, e.g. by PostgreSQL. It's just a matter of dependencies and configuration, no line of code will be changed.
 * [lombok](https://projectlombok.org/) to avoid boilerplate code like getters, setters, constructors. Note: use lombok for JPA entities with caution.
 * [mapstruct](https://mapstruct.org/) to avoid manual conversions from Entity objects to DTO and vice versa.
