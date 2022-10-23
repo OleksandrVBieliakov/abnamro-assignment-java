@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "name": "Scrambled eggs",
+      "numberOfServings": 2,
+      "instruction": "Steer the eggs...",
+      "ingredients": [
+        {
+          "product": {
+            "name": "egg"
+          },
+          "amount": 5,
+          "unit": {
+            "name": "piece"
+          }
+        },
+        {
+          "product": {
+            "name": "milk"
+          },
+          "amount": 0.5,
+          "unit": {
+            "name": "cup"
+          }
+        },
+        {
+          "product": {
+            "name": "salt"
+          },
+          "amount": 0.5,
+          "unit": {
+            "name": "tablespoon"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Burger",
+      "numberOfServings": 1,
+      "instruction": "Cut the ...",
+      "ingredients": [
+        {
+          "product": {
+            "name": "bun"
+          },
+          "amount": 1,
+          "unit": {
+            "name": "piece"
+          }
+        },
+        {
+          "product": {
+            "name": "beef"
+          },
+          "amount": 150,
+          "unit": {
+            "name": "gram"
+          }
+        },
+        {
+          "product": {
+            "name": "onion"
+          },
+          "amount": 0.5,
+          "unit": {
+            "name": "piece"
+          }
+        },
+        {
+          "product": {
+            "name": "tomato"
+          },
+          "amount": 1,
+          "unit": {
+            "name": "piece"
+          }
+        },
+        {
+          "product": {
+            "name": "salt"
+          },
+          "amount": 0.5,
+          "unit": {
+            "name": "tablespoon"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fried potatoes",
+      "numberOfServings": 4,
+      "instruction": "Cut the potato",
+      "ingredients": [
+        {
+          "product": {
+            "name": "potatoes"
+          },
+          "amount": 1.2,
+          "unit": {
+            "name": "kilogram"
+          }
+        },
+        {
+          "product": {
+            "name": "onion"
+          },
+          "amount": 2,
+          "unit": {
+            "name": "piece"
+          }
+        },
+        {
+          "product": {
+            "name": "olive oil"
+          },
+          "amount": 1.5,
+          "unit": {
+            "name": "cup"
+          }
+        },
+        {
+          "product": {
+            "name": "salt"
+          },
+          "amount": 1.0,
+          "unit": {
+            "name": "tablespoon"
+          }
+        }
+      ]
+    }
+  ]
+}

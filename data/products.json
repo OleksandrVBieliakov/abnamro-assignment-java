@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "name": "water",
+      "vegetarian": true
+    },
+    {
+      "name": "milk",
+      "vegetarian": true
+    },
+    {
+      "name": "egg",
+      "vegetarian": true
+    },
+    {
+      "name": "cheese",
+      "vegetarian": true
+    },
+    {
+      "name": "salt",
+      "vegetarian": true
+    },
+    {
+      "name": "pepper",
+      "vegetarian": true
+    },
+    {
+      "name": "sugar",
+      "vegetarian": true
+    },
+    {
+      "name": "onion",
+      "vegetarian": true
+    },
+    {
+      "name": "tomato",
+      "vegetarian": true
+    },
+    {
+      "name": "potatoes",
+      "vegetarian": true
+    },
+    {
+      "name": "carrot",
+      "vegetarian": true
+    },
+    {
+      "name": "cabbage",
+      "vegetarian": true
+    },
+    {
+      "name": "zucchini",
+      "vegetarian": true
+    },
+    {
+      "name": "pumpkin",
+      "vegetarian": true
+    },
+    {
+      "name": "rice",
+      "vegetarian": true
+    },
+    {
+      "name": "cucumber",
+      "vegetarian": true
+    },
+    {
+      "name": "corn",
+      "vegetarian": true
+    },
+    {
+      "name": "butter",
+      "vegetarian": true
+    },
+    {
+      "name": "olive oil",
+      "vegetarian": true
+    },
+    {
+      "name": "apple",
+      "vegetarian": true
+    },
+    {
+      "name": "lemon",
+      "vegetarian": true
+    },
+    {
+      "name": "flour",
+      "vegetarian": true
+    },
+    {
+      "name": "baking soda",
+      "vegetarian": true
+    },
+    {
+      "name": "bay leaf",
+      "vegetarian": true
+    },
+    {
+      "name": "bun",
+      "vegetarian": true
+    },
+    {
+      "name": "vinegar",
+      "vegetarian": true
+    },
+    {
+      "name": "beef",
+      "vegetarian": false
+    },
+    {
+      "name": "pork",
+      "vegetarian": false
+    },
+    {
+      "name": "mutton",
+      "vegetarian": false
+    },
+    {
+      "name": "chicken",
+      "vegetarian": false
+    },
+    {
+      "name": "herring",
+      "vegetarian": false
+    },
+    {
+      "name": "salmon",
+      "vegetarian": false
+    },
+    {
+      "name": "tuna",
+      "vegetarian": false
+    },
+    {
+      "name": "cod",
+      "vegetarian": false
+    },
+    {
+      "name": "mackerel",
+      "vegetarian": false
+    }
+  ]
+}

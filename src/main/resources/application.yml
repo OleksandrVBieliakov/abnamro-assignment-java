@@ -1,0 +1,20 @@
+server:
+  error:
+#consider include-message: never (default) and custom processing of errors
+    include-message: always
+spring:
+  jpa:
+#we don't need open-in-view: true because strictly use Entity to DTO mapping
+    open-in-view: false
+#set show-sql: true for detailed SQL logging
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+  h2:
+    console.enabled: true
+logging:
+  level:
+    nl.abnamro.assignment: debug
+#set org.hibernate.type: trace for logging of SQL parameters
+    org.hibernate.type: info
